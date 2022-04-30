@@ -1,0 +1,15 @@
+﻿@model IEnumerable<FootBallProject3.Models.tblFootball>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@item.MatchID</li>
+    }
+</ol>
+
